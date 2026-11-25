@@ -4,9 +4,11 @@ An installable WordPress theme that recreates [zaminzameen.com](https://zaminzam
 
 The repository contains one theme: [`zamin/`](zamin). It mirrors the live site's copy, images, page structure and empty listing state (no properties or stays are published by default, exactly as on the live site).
 
+A ready-to-upload archive is provided as [`zamin.zip`](zamin.zip). It contains a single top-level `zamin/` directory with `style.css` and `functions.php` directly inside, so it can be uploaded straight to WordPress without the "missing style.css stylesheet" error.
+
 ## Install
 
-1. Copy the `zamin/` folder into `wp-content/themes/zamin/` (or upload it through **Appearance → Themes → Add New → Upload Theme**).
+1. Download [`zamin.zip`](zamin.zip) and upload it through **Appearance → Themes → Add New → Upload Theme**, or copy the `zamin/` folder into `wp-content/themes/zamin/`.
 2. Activate **Zamin Real Estate**.
 3. On activation the theme automatically:
    - creates every page from the live site and sets the homepage;
